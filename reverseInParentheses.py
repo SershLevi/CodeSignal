@@ -44,6 +44,3 @@ def reverseInParentheses(istr):
     # props to vanpet90 for his genious idea to use eval in the previous version of this task
 def reverseInParentheses(s):
     return eval('"' + s.replace('(', '"+("').replace(')', '")[::-1]+"') + '"')
-
-
-eva;
